@@ -4,7 +4,6 @@ import java.util.HashMap;
 public class HanksHarvest {
 
   /**
-   * TODO: Determine if this year's harvest was considered good based on given
    * criteria:
    *
    * @param harvest --> (String) A representation of this year's harvest where
