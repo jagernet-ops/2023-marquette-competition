@@ -1,1 +1,1 @@
-Inside of the code repository I will store all of the code I made to practice for the upcoming Marquette AMC programming competition. The competition is happening April 19th 2023 and my team will be composed of Jacob Herrmann, Noah Dinan, Matthew Bender, and potentially Kai Williams.
+Practice Code repository for the upcoming 2023 AMC Programming Competition
