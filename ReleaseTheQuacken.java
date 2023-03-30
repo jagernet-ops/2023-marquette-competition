@@ -16,15 +16,18 @@ public class ReleaseTheQuacken {
     * The main method is written for you in order to help you conform to input and output formatting requirements.
     */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int numCases = scanner.nextInt();
+        Scanner in = new Scanner(System.in);
+        int numCases = Integer.parseInt(in.nextLine());
         for(int iCase = 0; iCase < numCases; iCase++) {
-            String[] m_and_n = scanner.nextLine().split(" ");
-            int[] order = duckOrder(Integer.parseInt(m_and_n[0]), Integer.parseInt(m_and_n[1]));
+            // User Input
+            String m_and_n = in.nextLine();
+            // Function Call
+            int[] order = duckOrder(Integer.parseInt(m_and_n.split(" ")[0]), Integer.parseInt(m_and_n.split(" ")[1]));
+            // Terminal Output
             for(int i = 0; i < order.length; i++){
                 System.out.print(String.valueOf(order[i])+" ");
             }
         }
-        scanner.close();
+        in.close();
     }
 }
