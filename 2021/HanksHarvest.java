@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class HanksHarvest {
-    private static int c = 0, p = 0, z = 0, r = 0;
-	
 	/**
      * TODO: Determine if this year's harvest was considered good based on given criteria:
      *
@@ -10,30 +8,32 @@ public class HanksHarvest {
      *
      * @return result --> (boolean) true if the harvest is considered good, false if the harvest is considered bad
      */
-	public static boolean isGoodHarvest(String harvest) {
+	public static boolean isGoodHarvest(String harvest) 
+	{
+		int c = 0, p = 0, z = 0, r = 0;
 
-        for (int i = 0; i < harvest.length(); i++)
-        {
-            char ch = harvest.charAt(i);
-            if (ch == 'C')
-            {
-                c += 1;
-            }
-            else if (ch == 'P')
-            {
-                p += 1;
-            }
-            else if (ch == 'Z')
-            {
-                z += 1;
-            }
-            else if (ch == 'R')
-            {
-                r += 1;
-            }
-        }
+		for (int i = 0; i < harvest.length(); i++)
+		{
+		    char ch = harvest.charAt(i);
+		    if (ch == 'C')
+		    {
+			c += 1;
+		    }
+		    else if (ch == 'P')
+		    {
+			p += 1;
+		    }
+		    else if (ch == 'Z')
+		    {
+			z += 1;
+		    }
+		    else if (ch == 'R')
+		    {
+			r += 1;
+		    }
+		}
 
-        int total = c + p + z;
+		int total = c + p + z;
 
 		return !(c < 2 || p < 4 || z < 5 || total < 15 || r > total * 0.1);
 	}
