@@ -5,15 +5,19 @@ public class Contains {
 
     public static boolean isInList(int[] userList, int userNumber){
         boolean result = false;
-        for(int i = 0; i < userList.length; i++){
-            if(userList[i] == userNumber){
-                return !result;
-            }
-        }
+        
+        // Write some code here
+
+
         return result;
     }
 
     public static void main(String[] args){
+        /*
+        * It is unnecessary to edit the "main" method of each problem's provided code
+        * skeleton. The main method is written for you in order to help you conform to
+        * input and output formatting requirements.
+        */
         Scanner scanner = new Scanner(System.in);
         int numberOfCases = Integer.parseInt(scanner.nextLine());
         for(int i = 0; i < numberOfCases; i++){
