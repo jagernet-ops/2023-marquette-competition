@@ -1,19 +1,19 @@
-package PRACTICE;
 import java.util.Scanner;
 
 public class IndexOf {
     public static int indexOf(int[] userList, int userNumber){
         int result = -1;
 
-        for(int i = 0; i < userList.length; i++){
-            if(userList[i] == userNumber){
-                result = i;
-            }
-        }
+        
 
         return result;
     }
     public static void main(String[] args){
+        /*
+        * It is unnecessary to edit the "main" method of each problem's provided code
+        * skeleton. The main method is written for you in order to help you conform to
+        * input and output formatting requirements.
+        */
         Scanner scanner = new Scanner(System.in);
         int numberOfCases = Integer.parseInt(scanner.nextLine());
         for(int i = 0; i < numberOfCases; i++){
