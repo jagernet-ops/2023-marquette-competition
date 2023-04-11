@@ -1,13 +1,10 @@
-
-
 // Do NOT include a package statement at the top of your solution.
 
 import java.util.Scanner;
 
 public class MartianUnitsConverter {
 
-    /**
-     * TODO: Complete the following method that converts a temperature in Martian
+    /*
      * Units to Global Overtemps based on the given parameters:
      * 
      * @param mu --> the input temperature in Martian Units

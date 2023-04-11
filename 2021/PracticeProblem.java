@@ -1,7 +1,3 @@
-
-
-// Do NOT include a package statement at the top of your solution.
-
 import java.util.Scanner;
 
 public class PracticeProblem {
@@ -27,11 +23,6 @@ public class PracticeProblem {
     }
 
     public static boolean isOdd(int x) {
-        boolean result = false;
-
-        // Write some code here
-
-        return result;
+        return (x % 2 == 1);
     }
 }
-
