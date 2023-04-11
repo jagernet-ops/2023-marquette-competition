@@ -23,6 +23,6 @@ public class PracticeProblem {
     }
 
     public static boolean isOdd(int x) {
-        return (x % 2 == 1);
+        return (x % 2 != 0);
     }
 }

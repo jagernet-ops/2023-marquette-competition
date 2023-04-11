@@ -12,11 +12,7 @@ public class MartianUnitsConverter {
      */
 
     public static double converter(int mu) {
-        double result = 0.0;
-
-        // Write your solution here
-
-        return result;
+        return (mu * (.75)) + 34;
     }
 
     /*
