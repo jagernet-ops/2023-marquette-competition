@@ -1,3 +1,4 @@
+package problems;
 // Do NOT include a package statement at the top of your solution.
 
 import java.util.Scanner;
