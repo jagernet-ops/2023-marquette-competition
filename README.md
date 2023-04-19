@@ -6,3 +6,5 @@ Please place your solutions into the solutions folder and feel free to use the S
 
 Current Team Roster: Michael Shalewski, Jacob Herrmann, Matthew Bender, Noah Dinan
 
+# GREAT YEAR EVERYBODY!!
+- should we send a strongly worded email?
